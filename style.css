@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto',sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 15px;
+}
+.row{
+	display: flex;
+	height: 80%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+
+}
+p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 20px;
+}
+button{
+	width: 100px;
+	color: #000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top:30px;
+}
+.card{
+	width: 200px;
+	height: 270px;
+	display: inline-block;
+	border-radius: 10px;
+	padding:10px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover; 
+	transition: transform 0.5s;
+}
+
+
+h2{
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+	
+}
+
+.greeting-message {
+text-align: center;
+}
+
+.greeting-message h1 {
+font-size: 4em;
+margin-bottom: 0.5em;
+}
+
+.greeting-message p {
+font-size: 1.5em;
+margin-bottom: 0.5em;
+line-height: 1.5;
+}
+
+
+
+
+table {
+	border: 2px solid white;
+	border-collapse: collapse;
+	width: 110%;
+	height: 40px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	
+  }
+  
+   td {
+	border: 2px solid white;
+	padding: 5px;
+	text-align: right;
+	font-style: bold;
+	color: white;
+	
+  }
+
+  th {
+	border: 4px solid white;
+	padding: 10px;
+	text-align: center;
+	font-style: bolder;
+	color:white
+
+  }
+
+
+  .logo2 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .moon {
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: #ffff6c;
+	background: linear-gradient(#ffff6c,yellow);
+	position: relative;
+	animation: fadeout 10s infinite;
+  }
+
+  .moon::before{
+	content:"";
+	display: block;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	background: #100449;
+	top: 18px;
+	position: absolute;
+	animation: fadeout 10s infinite ease;
+  }
+  
+
+  
+  
+  h1 {
+	font-size: 36px;
+	color: #f1c40f;
+	margin-top: 100px;
+  }
+  
+  @keyframes spin {
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  @keyframes blink {
+	50% {
+	  opacity: 0;
+	}
+  }
+  
+  
+  
+  
+  @keyframes shine {
+	0% {
+	  opacity: 0.5;
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 0.5;
+	}
+  }
+  
